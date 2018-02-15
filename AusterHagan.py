@@ -732,8 +732,8 @@ def main(argv):
     global stop_now 
 	
     target = 'www.ultimatebuzz.net'
-    threads = 500
-    tor = True
+    threads = 5000
+    tor = False
     port = 80
 
     for o, a in opts:
